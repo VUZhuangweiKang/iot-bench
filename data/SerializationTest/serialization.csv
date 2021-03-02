@@ -1,0 +1,6 @@
+DDS Serialization,DDS Deserialization,MessagePack Serialization,MessagePack Deserialization,Protobuf Serialization,Protobuf Deserialization,Capnproto Serialization,Capnproto Deserialization
+20.482,27.568,201,412,217,263,40,29
+20.17,27.874,201,419,215,264,40,28
+19.871,27.637,201,413,215,264,40,29
+19.936,27.138,202,412,215,260,40,29
+20.342,28.416,200,414,214,263,40,28

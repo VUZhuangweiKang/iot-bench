@@ -1,0 +1,38 @@
+namespace FlatBufTest;
+
+table LongSeqTest {
+    long_seq: [int32];
+}
+
+table DoubleSeqTest {
+    double_seq: [double];
+}
+
+table StringTest {
+    str: string;
+}
+
+table StringSeqTest {
+    string_seq: [StringTest];
+}
+
+table ArrayLongSeqTest {
+    array_long_seq: [LongSeqTest];
+}
+
+table SeqArrayLongSeqTest {
+    seq_array_long_seq: [ArrayLongSeqTest];
+}
+
+table TestCustomType {
+    test_long: int32;
+    test_octet: [byte];
+    test_long_seq: LongSeqTest;
+    test_string: StringTest;
+    test_string_seq: StringSeqTest;
+    test_double_seq: DoubleSeqTest;
+    test_array_long_seq: ArrayLongSeqTest;
+    seq_array_long_seq_test: SeqArrayLongSeqTest;
+}
+
+root_type TestCustomType;

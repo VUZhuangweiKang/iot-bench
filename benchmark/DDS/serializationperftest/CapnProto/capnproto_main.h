@@ -1,0 +1,8 @@
+//
+// Created by zhuangwei on 10/11/19.
+//
+
+#ifndef SERIALIZATION_CAPNPROTO_MAIN_H
+#define SERIALIZATION_CAPNPROTO_MAIN_H
+
+#endif //SERIALIZATION_CAPNPROTO_MAIN_H

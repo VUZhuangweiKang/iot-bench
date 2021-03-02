@@ -1,0 +1,41 @@
+syntax = "proto3";
+package myprotobuf;
+
+message Octet {
+    bytes octet = 1;
+}
+
+message LongSeqTest {
+    repeated sfixed32 long_mem = 1;
+}
+
+message DoubleSeqTest {
+    repeated double double_mem = 1 ;
+}
+
+message StringTest {
+    repeated bytes char_mem = 1;
+}
+
+message StringSeqTest {
+    repeated StringTest string_mem = 1;
+}
+
+message ArrayLongSeqTest {
+    repeated LongSeqTest long_seq_mem = 1;
+}
+
+message SeqArrayLongSeqTest {
+    repeated ArrayLongSeqTest array_long_seq_mem = 1;
+}
+
+message TestCustomType {
+    sfixed32 test_long = 1;
+    repeated Octet test_octet = 2;
+    LongSeqTest test_long_seq = 3;
+    StringTest test_string = 4;
+    StringSeqTest test_string_seq = 5;
+    DoubleSeqTest test_double_seq = 6;
+    ArrayLongSeqTest test_array_long_seq = 7;
+    SeqArrayLongSeqTest seq_array_long_seq_test = 8;
+}

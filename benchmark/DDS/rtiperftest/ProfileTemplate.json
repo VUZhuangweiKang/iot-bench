@@ -1,0 +1,24 @@
+{
+    "id": "", 
+    "mode": "continuous",
+    "pubs": [],
+    "subs": [], 
+    "pubRate": [0], 
+    "dataLen": [20480], 
+    "parameters": {
+        "common": {
+            "-domain": 0, 
+            "-noPrint": true, 
+            "-qosFile": "perftest_qos_profile_custom_type.xml",
+            "-bestEffort": false,
+	    "-latencyTest": true,
+            "-transport": "UDPv4",
+            "-cpu": true
+        }, 
+        "pub": {
+            "-batchSize": 0,
+            "-executionTime": 120
+        }, 
+        "sub": {}
+    }
+}
